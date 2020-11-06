@@ -1,0 +1,618 @@
+[    31.302] (--) Log file renamed from "/home/marianab/.local/share/xorg/Xorg.pid-905.log" to "/home/marianab/.local/share/xorg/Xorg.0.log"
+[    31.303] 
+X.Org X Server 1.20.8
+X Protocol Version 11, Revision 0
+[    31.304] Build Operating System: Linux 4.15.0-115-generic x86_64 Ubuntu
+[    31.304] Current Operating System: Linux marianab-VirtualBox 5.4.0-51-generic #56-Ubuntu SMP Mon Oct 5 14:28:49 UTC 2020 x86_64
+[    31.304] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-51-generic root=UUID=f7d8083b-f31b-4f40-a961-36e910f75ef7 ro quiet splash
+[    31.304] Build Date: 04 September 2020  01:34:27PM
+[    31.304] xorg-server 2:1.20.8-2ubuntu2.4 (For technical support please see http://www.ubuntu.com/support) 
+[    31.304] Current version of pixman: 0.38.4
+[    31.304] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    31.304] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    31.305] (==) Log file: "/home/marianab/.local/share/xorg/Xorg.0.log", Time: Thu Nov  5 09:17:44 2020
+[    31.306] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    31.309] (==) No Layout section.  Using the first Screen section.
+[    31.309] (==) No screen section available. Using defaults.
+[    31.310] (**) |-->Screen "Default Screen Section" (0)
+[    31.310] (**) |   |-->Monitor "<default monitor>"
+[    31.311] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    31.311] (==) Automatically adding devices
+[    31.311] (==) Automatically enabling devices
+[    31.316] (==) Automatically adding GPU devices
+[    31.316] (==) Automatically binding GPU devices
+[    31.316] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    31.322] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    31.322] 	Entry deleted from font path.
+[    31.322] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    31.322] 	Entry deleted from font path.
+[    31.322] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    31.322] 	Entry deleted from font path.
+[    31.323] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    31.323] 	Entry deleted from font path.
+[    31.323] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    31.323] 	Entry deleted from font path.
+[    31.323] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    31.323] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    31.323] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    31.323] (II) Loader magic: 0x561ca6a43020
+[    31.323] (II) Module ABI versions:
+[    31.323] 	X.Org ANSI C Emulation: 0.4
+[    31.323] 	X.Org Video Driver: 24.1
+[    31.323] 	X.Org XInput driver : 24.1
+[    31.323] 	X.Org Server Extension : 10.0
+[    31.323] (++) using VT number 2
+
+[    31.325] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    31.326] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    31.327] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[    31.328] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/33554432, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[    31.328] (II) LoadModule: "glx"
+[    31.329] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    31.340] (II) Module glx: vendor="X.Org Foundation"
+[    31.340] 	compiled for 1.20.8, module version = 1.0.0
+[    31.340] 	ABI class: X.Org Server Extension, version 10.0
+[    31.340] (==) Matched vmware as autoconfigured driver 0
+[    31.340] (==) Matched modesetting as autoconfigured driver 1
+[    31.340] (==) Matched fbdev as autoconfigured driver 2
+[    31.340] (==) Matched vesa as autoconfigured driver 3
+[    31.340] (==) Assigned the driver to the xf86ConfigLayout
+[    31.340] (II) LoadModule: "vmware"
+[    31.342] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[    31.593] (II) Module vmware: vendor="X.Org Foundation"
+[    31.593] 	compiled for 1.20.8, module version = 13.3.0
+[    31.593] 	Module class: X.Org Video Driver
+[    31.593] 	ABI class: X.Org Video Driver, version 24.1
+[    31.593] (II) LoadModule: "modesetting"
+[    31.593] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    31.596] (II) Module modesetting: vendor="X.Org Foundation"
+[    31.596] 	compiled for 1.20.8, module version = 1.20.8
+[    31.596] 	Module class: X.Org Video Driver
+[    31.596] 	ABI class: X.Org Video Driver, version 24.1
+[    31.596] (II) LoadModule: "fbdev"
+[    31.596] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    31.598] (II) Module fbdev: vendor="X.Org Foundation"
+[    31.598] 	compiled for 1.20.1, module version = 0.5.0
+[    31.598] 	Module class: X.Org Video Driver
+[    31.598] 	ABI class: X.Org Video Driver, version 24.0
+[    31.598] (II) LoadModule: "vesa"
+[    31.598] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    31.602] (II) Module vesa: vendor="X.Org Foundation"
+[    31.602] 	compiled for 1.20.4, module version = 2.4.0
+[    31.602] 	Module class: X.Org Video Driver
+[    31.602] 	ABI class: X.Org Video Driver, version 24.0
+[    31.602] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[    31.602] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    31.602] (II) FBDEV: driver for framebuffer: fbdev
+[    31.602] (II) VESA: driver for VESA chipsets: vesa
+[    31.602] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    31.602] (WW) Falling back to old probe method for modesetting
+[    31.603] (WW) Falling back to old probe method for fbdev
+[    31.603] (II) Loading sub module "fbdevhw"
+[    31.603] (II) LoadModule: "fbdevhw"
+[    31.603] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    31.604] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    31.604] 	compiled for 1.20.8, module version = 0.0.2
+[    31.604] 	ABI class: X.Org Video Driver, version 24.1
+[    31.604] (EE) open /dev/fb0: Permission denied
+[    31.604] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    31.604] (II) vmware(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    31.604] (--) vmware(0): DRM driver version is 2.15.0
+[    31.604] (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+[    31.604] (==) vmware(0): RGB weight 888
+[    31.604] (==) vmware(0): Default visual is TrueColor
+[    31.604] (--) vmware(0): Min width 1, Max Width 8192.
+[    31.604] (--) vmware(0): Min height 1, Max Height 8192.
+[    31.604] (II) vmware(0): Output Virtual1 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual2 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual3 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual4 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual5 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual6 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual7 has no monitor section
+[    31.604] (II) vmware(0): Output Virtual8 has no monitor section
+[    31.604] (II) vmware(0): Printing probed modes for output Virtual1
+[    31.604] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+[    31.604] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[    31.604] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[    31.604] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[    31.604] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[    31.604] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[    31.604] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[    31.604] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[    31.604] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[    31.604] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    31.604] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[    31.604] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    31.604] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    31.604] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+[    31.604] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    31.604] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    31.604] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    31.604] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    31.604] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+[    31.604] (II) vmware(0): EDID for output Virtual2
+[    31.604] (II) vmware(0): EDID for output Virtual3
+[    31.604] (II) vmware(0): EDID for output Virtual4
+[    31.604] (II) vmware(0): EDID for output Virtual5
+[    31.604] (II) vmware(0): EDID for output Virtual6
+[    31.604] (II) vmware(0): EDID for output Virtual7
+[    31.604] (II) vmware(0): EDID for output Virtual8
+[    31.604] (II) vmware(0): Output Virtual1 connected
+[    31.604] (II) vmware(0): Output Virtual2 disconnected
+[    31.604] (II) vmware(0): Output Virtual3 disconnected
+[    31.604] (II) vmware(0): Output Virtual4 disconnected
+[    31.604] (II) vmware(0): Output Virtual5 disconnected
+[    31.604] (II) vmware(0): Output Virtual6 disconnected
+[    31.604] (II) vmware(0): Output Virtual7 disconnected
+[    31.604] (II) vmware(0): Output Virtual8 disconnected
+[    31.604] (II) vmware(0): Using exact sizes for initial modes
+[    31.604] (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+[    31.604] (==) vmware(0): DPI set to (96, 96)
+[    31.604] (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+[    31.604] (II) Loading sub module "fb"
+[    31.604] (II) LoadModule: "fb"
+[    31.604] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    31.608] (II) Module fb: vendor="X.Org Foundation"
+[    31.608] 	compiled for 1.20.8, module version = 1.0.0
+[    31.608] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    31.608] (II) Loading sub module "dri2"
+[    31.608] (II) LoadModule: "dri2"
+[    31.608] (II) Module "dri2" already built-in
+[    31.608] (II) Loading sub module "dri3"
+[    31.608] (II) LoadModule: "dri3"
+[    31.608] (II) Module "dri3" already built-in
+[    31.608] (II) UnloadModule: "modesetting"
+[    31.608] (II) Unloading modesetting
+[    31.608] (II) UnloadModule: "fbdev"
+[    31.608] (II) Unloading fbdev
+[    31.608] (II) UnloadSubModule: "fbdevhw"
+[    31.608] (II) Unloading fbdevhw
+[    31.608] (II) UnloadModule: "vesa"
+[    31.608] (II) Unloading vesa
+[    31.612] (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+[    31.620] (WW) vmware(0): Failed to initialize Gallium3D Xa. No render acceleration available.
+[    31.620] (WW) vmware(0): Skipped initialization of direct rendering due to lack of render acceleration.
+[    31.620] (--) vmware(0): Render acceleration is disabled.
+[    31.620] (==) vmware(0): Rendercheck mode is disabled.
+[    31.620] (--) vmware(0): Direct rendering (DRI2 3D) is disabled.
+[    31.620] (--) vmware(0): Direct rendering (DRI3 3D) is disabled.
+[    31.620] (==) vmware(0): Backing store enabled
+[    31.620] (==) vmware(0): Silken mouse enabled
+[    31.625] (==) vmware(0): DPMS enabled
+[    31.625] (II) vmware(0): No 3D acceleration. Not setting up textured video.
+[    31.625] (WW) vmware(0): Disabling Xv because no adaptors could be initialized.
+[    31.625] (II) Initializing extension Generic Event Extension
+[    31.625] (II) Initializing extension SHAPE
+[    31.625] (II) Initializing extension MIT-SHM
+[    31.625] (II) Initializing extension XInputExtension
+[    31.626] (II) Initializing extension XTEST
+[    31.626] (II) Initializing extension BIG-REQUESTS
+[    31.627] (II) Initializing extension SYNC
+[    31.627] (II) Initializing extension XKEYBOARD
+[    31.627] (II) Initializing extension XC-MISC
+[    31.627] (II) Initializing extension SECURITY
+[    31.627] (II) Initializing extension XFIXES
+[    31.627] (II) Initializing extension RENDER
+[    31.627] (II) Initializing extension RANDR
+[    31.627] (II) Initializing extension COMPOSITE
+[    31.627] (II) Initializing extension DAMAGE
+[    31.627] (II) Initializing extension MIT-SCREEN-SAVER
+[    31.627] (II) Initializing extension DOUBLE-BUFFER
+[    31.627] (II) Initializing extension RECORD
+[    31.627] (II) Initializing extension DPMS
+[    31.627] (II) Initializing extension Present
+[    31.627] (II) Initializing extension DRI3
+[    31.627] (II) Initializing extension X-Resource
+[    31.628] (II) Initializing extension XVideo
+[    31.628] (II) Initializing extension XVideo-MotionCompensation
+[    31.628] (II) Initializing extension SELinux
+[    31.628] (II) SELinux: Disabled on system
+[    31.628] (II) Initializing extension GLX
+[    31.628] (II) AIGLX: Screen 0 is not DRI2 capable
+[    31.741] (II) IGLX: Loaded and initialized swrast
+[    31.741] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    31.741] (II) Initializing extension XFree86-VidModeExtension
+[    31.741] (II) Initializing extension XFree86-DGA
+[    31.741] (II) Initializing extension XFree86-DRI
+[    31.744] (II) Initializing extension DRI2
+[    31.746] (II) vmware(0): Setting screen physical size to 211 x 158
+[    31.831] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    31.832] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    31.832] (II) LoadModule: "libinput"
+[    31.832] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    32.361] (II) Module libinput: vendor="X.Org Foundation"
+[    32.361] 	compiled for 1.20.4, module version = 0.29.0
+[    32.361] 	Module class: X.Org XInput Driver
+[    32.361] 	ABI class: X.Org XInput driver, version 24.1
+[    32.361] (II) Using input driver 'libinput' for 'Power Button'
+[    32.366] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 20 paused 0
+[    32.366] (**) Power Button: always reports core events
+[    32.366] (**) Option "Device" "/dev/input/event0"
+[    32.366] (**) Option "_source" "server/udev"
+[    32.381] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    32.381] (II) event0  - Power Button: device is a keyboard
+[    32.381] (II) event0  - Power Button: device removed
+[    32.381] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    32.381] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    32.381] (**) Option "xkb_model" "pc105"
+[    32.381] (**) Option "xkb_layout" "us"
+[    32.382] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    32.382] (II) event0  - Power Button: device is a keyboard
+[    32.382] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    32.382] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    32.382] (II) Using input driver 'libinput' for 'Sleep Button'
+[    32.384] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 23 paused 0
+[    32.384] (**) Sleep Button: always reports core events
+[    32.384] (**) Option "Device" "/dev/input/event1"
+[    32.384] (**) Option "_source" "server/udev"
+[    32.385] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    32.385] (II) event1  - Sleep Button: device is a keyboard
+[    32.385] (II) event1  - Sleep Button: device removed
+[    32.385] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[    32.385] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    32.385] (**) Option "xkb_model" "pc105"
+[    32.385] (**) Option "xkb_layout" "us"
+[    32.386] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    32.386] (II) event1  - Sleep Button: device is a keyboard
+[    32.386] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[    32.386] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    32.386] (II) Using input driver 'libinput' for 'Video Bus'
+[    32.388] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 24 paused 0
+[    32.388] (**) Video Bus: always reports core events
+[    32.388] (**) Option "Device" "/dev/input/event3"
+[    32.388] (**) Option "_source" "server/udev"
+[    32.390] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[    32.390] (II) event3  - Video Bus: device is a keyboard
+[    32.390] (II) event3  - Video Bus: device removed
+[    32.390] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4/event3"
+[    32.391] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    32.391] (**) Option "xkb_model" "pc105"
+[    32.391] (**) Option "xkb_layout" "us"
+[    32.391] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[    32.391] (II) event3  - Video Bus: device is a keyboard
+[    32.393] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event6)
+[    32.393] (**) VirtualBox mouse integration: Applying InputClass "libinput pointer catchall"
+[    32.393] (II) Using input driver 'libinput' for 'VirtualBox mouse integration'
+[    32.397] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 25 paused 0
+[    32.397] (**) VirtualBox mouse integration: always reports core events
+[    32.397] (**) Option "Device" "/dev/input/event6"
+[    32.397] (**) Option "_source" "server/udev"
+[    32.399] (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[    32.399] (II) event6  - VirtualBox mouse integration: device is a pointer
+[    32.400] (II) event6  - VirtualBox mouse integration: device removed
+[    32.400] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/input/input7/event6"
+[    32.400] (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+[    32.400] (**) Option "AccelerationScheme" "none"
+[    32.400] (**) VirtualBox mouse integration: (accel) selected scheme none/0
+[    32.400] (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+[    32.400] (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+[    32.400] (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[    32.400] (II) event6  - VirtualBox mouse integration: device is a pointer
+[    32.401] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+[    32.401] (II) No input driver specified, ignoring this device.
+[    32.401] (II) This device may have been added with another device file.
+[    32.402] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event5)
+[    32.402] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[    32.402] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[    32.463] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 26 paused 0
+[    32.463] (**) VirtualBox USB Tablet: always reports core events
+[    32.463] (**) Option "Device" "/dev/input/event5"
+[    32.463] (**) Option "_source" "server/udev"
+[    32.463] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    32.464] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[    32.464] (II) event5  - VirtualBox USB Tablet: device removed
+[    32.464] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6/event5"
+[    32.464] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[    32.464] (**) Option "AccelerationScheme" "none"
+[    32.464] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[    32.464] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    32.464] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    32.464] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    32.465] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[    32.465] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[    32.465] (II) No input driver specified, ignoring this device.
+[    32.465] (II) This device may have been added with another device file.
+[    32.465] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[    32.465] (II) No input driver specified, ignoring this device.
+[    32.465] (II) This device may have been added with another device file.
+[    32.466] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    32.466] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    32.466] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    32.474] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 27 paused 0
+[    32.474] (**) AT Translated Set 2 keyboard: always reports core events
+[    32.478] (**) Option "Device" "/dev/input/event2"
+[    32.478] (**) Option "_source" "server/udev"
+[    32.482] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    32.482] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    32.482] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    32.482] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    32.483] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[    32.483] (**) Option "xkb_model" "pc105"
+[    32.483] (**) Option "xkb_layout" "us"
+[    32.485] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    32.485] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    32.486] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event4)
+[    32.486] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    32.486] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    32.489] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 28 paused 0
+[    32.489] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    32.489] (**) Option "Device" "/dev/input/event4"
+[    32.490] (**) Option "_source" "server/udev"
+[    32.490] (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    32.491] (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    32.491] (II) event4  - ImExPS/2 Generic Explorer Mouse: device removed
+[    32.491] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input5/event4"
+[    32.491] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+[    32.492] (**) Option "AccelerationScheme" "none"
+[    32.492] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    32.492] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    32.492] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    32.495] (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    32.495] (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    32.498] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    32.498] (II) No input driver specified, ignoring this device.
+[    32.498] (II) This device may have been added with another device file.
+[  1146.432] (EE) No surface to present from.
+[  1169.733] (EE) No surface to present from.
+[  1173.651] (EE) No surface to present from.
+[  3318.622] (EE) No surface to present from.
+[  3761.411] (EE) No surface to present from.
+[  5832.046] (EE) No surface to present from.
+[  5832.109] (EE) No surface to present from.
+[  5832.239] (EE) No surface to present from.
+[  5832.245] (EE) No surface to present from.
+[  5832.422] (EE) No surface to present from.
+[  5832.437] (EE) No surface to present from.
+[  5832.511] (EE) No surface to present from.
+[  5832.604] (EE) No surface to present from.
+[  5832.611] (EE) No surface to present from.
+[  5832.621] (EE) No surface to present from.
+[  5832.790] (EE) No surface to present from.
+[  5835.354] (EE) No surface to present from.
+[  5835.529] (EE) No surface to present from.
+[  5835.543] (EE) No surface to present from.
+[  5835.702] (EE) No surface to present from.
+[  5835.759] (EE) No surface to present from.
+[  5835.872] (EE) No surface to present from.
+[  5835.886] (EE) No surface to present from.
+[  5835.967] (EE) No surface to present from.
+[  5836.097] (EE) No surface to present from.
+[  5836.176] (EE) No surface to present from.
+[  5836.371] (EE) No surface to present from.
+[  5869.145] (EE) No surface to present from.
+[  6777.118] (EE) No surface to present from.
+[  6777.173] (EE) No surface to present from.
+[  6777.244] (EE) No surface to present from.
+[  6777.300] (EE) No surface to present from.
+[  6777.435] (EE) No surface to present from.
+[  6777.789] (EE) No surface to present from.
+[  6780.955] (EE) No surface to present from.
+[  6781.031] (EE) No surface to present from.
+[  6781.149] (EE) No surface to present from.
+[  6781.163] (EE) No surface to present from.
+[  6781.215] (EE) No surface to present from.
+[  6781.327] (EE) No surface to present from.
+[  6781.341] (EE) No surface to present from.
+[  7101.258] (EE) No surface to present from.
+[  7134.480] (EE) No surface to present from.
+[  7322.581] (EE) No surface to present from.
+[  7343.891] (EE) No surface to present from.
+[  7347.317] (EE) No surface to present from.
+[  9865.946] (EE) No surface to present from.
+[  9992.482] (EE) No surface to present from.
+[  9992.565] (EE) No surface to present from.
+[  9992.650] (EE) No surface to present from.
+[  9992.786] (EE) No surface to present from.
+[  9992.808] (EE) No surface to present from.
+[  9992.857] (EE) No surface to present from.
+[  9993.131] (EE) No surface to present from.
+[  9993.229] (EE) No surface to present from.
+[  9993.247] (EE) No surface to present from.
+[  9993.277] (EE) No surface to present from.
+[  9993.424] (EE) No surface to present from.
+[  9993.528] (EE) No surface to present from.
+[  9993.696] (EE) No surface to present from.
+[  9993.779] (EE) No surface to present from.
+[  9993.931] (EE) No surface to present from.
+[  9994.131] (EE) No surface to present from.
+[  9994.311] (EE) No surface to present from.
+[  9994.403] (EE) No surface to present from.
+[  9994.647] (EE) No surface to present from.
+[  9994.739] (EE) No surface to present from.
+[ 10002.376] (EE) No surface to present from.
+[ 10002.710] (EE) No surface to present from.
+[ 10002.830] (EE) No surface to present from.
+[ 10002.911] (EE) No surface to present from.
+[ 10002.933] (EE) No surface to present from.
+[ 10003.039] (EE) No surface to present from.
+[ 10003.092] (EE) No surface to present from.
+[ 10161.798] (EE) No surface to present from.
+[ 11249.126] (EE) No surface to present from.
+[ 11309.558] (EE) No surface to present from.
+[ 11990.896] (EE) No surface to present from.
+[ 12027.562] (EE) No surface to present from.
+[ 12053.774] (EE) No surface to present from.
+[ 12671.315] (EE) No surface to present from.
+[ 12671.373] (EE) No surface to present from.
+[ 12671.422] (EE) No surface to present from.
+[ 12671.455] (EE) No surface to present from.
+[ 12671.610] (EE) No surface to present from.
+[ 12671.625] (EE) No surface to present from.
+[ 12671.697] (EE) No surface to present from.
+[ 12671.719] (EE) No surface to present from.
+[ 12671.856] (EE) No surface to present from.
+[ 12672.030] (EE) No surface to present from.
+[ 12672.196] (EE) No surface to present from.
+[ 12672.337] (EE) No surface to present from.
+[ 12672.487] (EE) No surface to present from.
+[ 12672.710] (EE) No surface to present from.
+[ 12672.802] (EE) No surface to present from.
+[ 12930.317] (EE) No surface to present from.
+[ 12943.406] (EE) No surface to present from.
+[ 13072.881] (EE) No surface to present from.
+[ 13073.320] (EE) No surface to present from.
+[ 18694.322] (EE) No surface to present from.
+[ 18694.458] (EE) No surface to present from.
+[ 18694.495] (EE) No surface to present from.
+[ 18694.664] (EE) No surface to present from.
+[ 18694.785] (EE) No surface to present from.
+[ 18694.827] (EE) No surface to present from.
+[ 18698.035] (EE) No surface to present from.
+[ 18700.561] (EE) No surface to present from.
+[ 18700.632] (EE) No surface to present from.
+[ 18700.740] (EE) No surface to present from.
+[ 18700.913] (EE) No surface to present from.
+[ 18701.077] (EE) No surface to present from.
+[ 18701.220] (EE) No surface to present from.
+[ 18701.371] (EE) No surface to present from.
+[ 18701.492] (EE) No surface to present from.
+[ 18701.504] (EE) No surface to present from.
+[ 18701.670] (EE) No surface to present from.
+[ 18701.790] (EE) No surface to present from.
+[ 19509.701] (EE) No surface to present from.
+[ 19509.813] (EE) No surface to present from.
+[ 19509.950] (EE) No surface to present from.
+[ 19509.976] (EE) No surface to present from.
+[ 19510.180] (EE) No surface to present from.
+[ 19510.299] (EE) No surface to present from.
+[ 19510.320] (EE) No surface to present from.
+[ 19523.506] (EE) No surface to present from.
+[ 19523.625] (EE) No surface to present from.
+[ 19526.803] (EE) No surface to present from.
+[ 19527.190] (EE) No surface to present from.
+[ 22636.566] (EE) No surface to present from.
+[ 22636.649] (EE) No surface to present from.
+[ 22636.767] (EE) No surface to present from.
+[ 22636.853] (EE) No surface to present from.
+[ 22636.966] (EE) No surface to present from.
+[ 22637.194] (EE) No surface to present from.
+[ 22637.208] (EE) No surface to present from.
+[ 22637.362] (EE) No surface to present from.
+[ 22637.574] (EE) No surface to present from.
+[ 22637.677] (EE) No surface to present from.
+[ 22637.718] (EE) No surface to present from.
+[ 22637.987] (EE) No surface to present from.
+[ 22637.995] (EE) No surface to present from.
+[ 22638.284] (EE) No surface to present from.
+[ 22638.473] (EE) No surface to present from.
+[ 22643.164] (EE) No surface to present from.
+[ 22643.471] (EE) No surface to present from.
+[ 23679.469] (EE) No surface to present from.
+[ 23679.526] (EE) No surface to present from.
+[ 23679.675] (EE) No surface to present from.
+[ 25334.302] (EE) No surface to present from.
+[ 25334.433] (EE) No surface to present from.
+[ 25334.441] (EE) No surface to present from.
+[ 25334.787] (EE) No surface to present from.
+[ 25334.822] (EE) No surface to present from.
+[ 25335.106] (EE) No surface to present from.
+[ 25639.053] (EE) No surface to present from.
+[ 25639.119] (EE) No surface to present from.
+[ 25639.205] (EE) No surface to present from.
+[ 25639.347] (EE) No surface to present from.
+[ 25639.464] (EE) No surface to present from.
+[ 25639.477] (EE) No surface to present from.
+[ 25639.681] (EE) No surface to present from.
+[ 25639.790] (EE) No surface to present from.
+[ 26051.017] (EE) No surface to present from.
+[ 26051.098] (EE) No surface to present from.
+[ 26051.126] (EE) No surface to present from.
+[ 26051.205] (EE) No surface to present from.
+[ 26051.312] (EE) No surface to present from.
+[ 26815.801] (EE) No surface to present from.
+[ 26815.812] (EE) No surface to present from.
+[ 26815.871] (EE) No surface to present from.
+[ 26815.978] (EE) No surface to present from.
+[ 26816.054] (EE) No surface to present from.
+[ 26816.214] (EE) No surface to present from.
+[ 26816.247] (EE) No surface to present from.
+[ 26816.348] (EE) No surface to present from.
+[ 26816.420] (EE) No surface to present from.
+[ 26816.569] (EE) No surface to present from.
+[ 26816.614] (EE) No surface to present from.
+[ 26816.870] (EE) No surface to present from.
+[ 26816.998] (EE) No surface to present from.
+[ 26817.031] (EE) No surface to present from.
+[ 26817.129] (EE) No surface to present from.
+[ 26817.215] (EE) No surface to present from.
+[ 26817.221] (EE) No surface to present from.
+[ 26817.337] (EE) No surface to present from.
+[ 26845.203] (EE) No surface to present from.
+[ 26845.365] (EE) No surface to present from.
+[ 26845.377] (EE) No surface to present from.
+[ 26845.499] (EE) No surface to present from.
+[ 26845.606] (EE) No surface to present from.
+[ 26845.693] (EE) No surface to present from.
+[ 28335.970] (EE) No surface to present from.
+[ 33830.339] (EE) No surface to present from.
+[ 33830.426] (EE) No surface to present from.
+[ 33830.438] (EE) No surface to present from.
+[ 33830.584] (EE) No surface to present from.
+[ 33830.751] (EE) No surface to present from.
+[ 33831.066] (EE) No surface to present from.
+[ 33831.304] (EE) No surface to present from.
+[ 33831.438] (EE) No surface to present from.
+[ 34349.957] (EE) No surface to present from.
+[ 34805.191] (EE) No surface to present from.
+[ 34805.372] (EE) No surface to present from.
+[ 34825.992] (EE) No surface to present from.
+[ 34826.150] (EE) No surface to present from.
+[ 34826.391] (EE) No surface to present from.
+[ 34826.402] (EE) No surface to present from.
+[ 34826.559] (EE) No surface to present from.
+[ 34826.569] (EE) No surface to present from.
+[ 34826.773] (EE) No surface to present from.
+[ 34826.782] (EE) No surface to present from.
+[ 34827.014] (EE) No surface to present from.
+[ 34827.121] (EE) No surface to present from.
+[ 34827.130] (EE) No surface to present from.
+[ 34834.655] (EE) No surface to present from.
+[ 34839.007] (EE) No surface to present from.
+[ 34839.130] (EE) No surface to present from.
+[ 34839.136] (EE) No surface to present from.
+[ 34839.215] (EE) No surface to present from.
+[ 34839.396] (EE) No surface to present from.
+[ 34842.334] (EE) No surface to present from.
+[ 34842.473] (EE) No surface to present from.
+[ 34842.629] (EE) No surface to present from.
+[ 34844.993] (EE) No surface to present from.
+[ 34845.214] (EE) No surface to present from.
+[ 34845.484] (EE) No surface to present from.
+[ 34845.735] (EE) No surface to present from.
+[ 34845.894] (EE) No surface to present from.
+[ 34845.906] (EE) No surface to present from.
+[ 34845.970] (EE) No surface to present from.
+[ 34846.051] (EE) No surface to present from.
+[ 34851.982] (EE) No surface to present from.
+[ 34853.994] (EE) No surface to present from.
+[ 34854.120] (EE) No surface to present from.
+[ 34854.222] (EE) No surface to present from.
+[ 34854.236] (EE) No surface to present from.
+[ 34854.392] (EE) No surface to present from.
+[ 34854.407] (EE) No surface to present from.
+[ 34854.472] (EE) No surface to present from.
+[ 34854.502] (EE) No surface to present from.
+[ 34856.400] (EE) No surface to present from.
+[ 34856.622] (EE) No surface to present from.
+[ 34856.720] (EE) No surface to present from.
+[ 34856.876] (EE) No surface to present from.
+[ 36667.372] (EE) No surface to present from.
+[ 36667.650] (EE) No surface to present from.
+[ 36667.693] (EE) No surface to present from.
+[ 36667.779] (EE) No surface to present from.
+[ 36910.130] (EE) No surface to present from.
+[ 36913.160] (EE) No surface to present from.
+[ 36913.245] (EE) No surface to present from.
+[ 36913.478] (EE) No surface to present from.
+[ 36913.572] (EE) No surface to present from.
+[ 36913.583] (EE) No surface to present from.

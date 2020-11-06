@@ -1,0 +1,6 @@
+www.gandi.net:HSTS	0	18529	1616739970146,1,0,2
+firefox.settings.services.mozilla.com:HSTS	0	18529	1632506842069,1,0,2
+blocklists.settings.services.mozilla.com:HSTS	0	18529	1632507991828,1,0,2
+services.addons.thunderbird.net:HSTS	0	18529	1632506960983,1,0,2
+autoconfig.thunderbird.net:HSTS	0	18529	1632508008199,1,0,2
+location.services.mozilla.com:HSTS	0	18529	1632506693180,1,1,2
