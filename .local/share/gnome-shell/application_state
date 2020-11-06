@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Terminal.desktop" score="5419" last-seen="1604627721"/>
+    <application id="rhythmbox.desktop" score="0" last-seen="1604629023"/>
+    <application id="org.gnome.Nautilus.desktop" score="33" last-seen="1604629943"/>
+    <application id="org.gnome.Terminal.desktop" score="5691" last-seen="1604629819"/>
+    <application id="org.gnome.gedit.desktop" score="6" last-seen="1604629935"/>
     <application id="update-manager.desktop" score="0" last-seen="1604589545"/>
   </context>
 </application-state>

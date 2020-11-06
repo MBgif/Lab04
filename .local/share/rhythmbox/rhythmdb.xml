@@ -1,20 +1,20 @@
 <?xml version="1.0" standalone="yes"?>
 <rhythmdb version="2.0">
   <entry type="iradio">
-    <title>Studio Brussel, Belgium</title>
-    <genre>Alternative</genre>
-    <artist></artist>
-    <album></album>
-    <location>http://icecast.vrtcdn.be/stubru-high.mp3</location>
-    <date>0</date>
-    <media-type>application/octet-stream</media-type>
-  </entry>
-  <entry type="iradio">
     <title>Kink - No Alternative</title>
     <genre>Alternative</genre>
     <artist></artist>
     <album></album>
     <location>http://playerservices.streamtheworld.com/api/livestream-redirect/KINK.mp3</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Studio Brussel, Belgium</title>
+    <genre>Alternative</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://icecast.vrtcdn.be/stubru-high.mp3</location>
     <date>0</date>
     <media-type>application/octet-stream</media-type>
   </entry>
@@ -37,11 +37,11 @@
     <media-type>application/octet-stream</media-type>
   </entry>
   <entry type="iradio">
-    <title>wbur.org - Boston's NPR news source</title>
-    <genre>News</genre>
+    <title>Radio Paradise (High Quality)</title>
+    <genre>Eclectic</genre>
     <artist></artist>
     <album></album>
-    <location>http://audio.wbur.org/stream/live_ogg.m3u</location>
+    <location>http://stream-dc1.radioparadise.com/rp_192m.ogg</location>
     <date>0</date>
     <media-type>application/octet-stream</media-type>
   </entry>
@@ -58,11 +58,11 @@
     <media-type>application/octet-stream</media-type>
   </entry>
   <entry type="iradio">
-    <title>Radio Paradise (High Quality)</title>
-    <genre>Eclectic</genre>
+    <title>wbur.org - Boston's NPR news source</title>
+    <genre>News</genre>
     <artist></artist>
     <album></album>
-    <location>http://stream-dc1.radioparadise.com/rp_192m.ogg</location>
+    <location>http://audio.wbur.org/stream/live_ogg.m3u</location>
     <date>0</date>
     <media-type>application/octet-stream</media-type>
   </entry>

@@ -347,3 +347,29 @@ let a =5+5-3
 let a=5+5
 echo $a
 let b=100/*5
+let a=5*5
+echo $a
+let b=($a**10)/4
+echo $b
+let c=($b-23841857910155)
+echo $c
+ls
+git init
+sudo apt install git
+ls
+welcome.sh
+nano welcome.sh
+git init
+git add .
+git commit -m "initial commit"
+git config --global user.email "mbgif@github.com"
+git config --global user.name "mbgif"
+git add .
+git commit -m "initial commit"
+git remote add origing remote repository URL
+https://github.com/MBgif/Lab04.git
+git remote -v
+git push -f origin master
+git remote -v
+git push -f lab 04 master
+git push -f lab04 master

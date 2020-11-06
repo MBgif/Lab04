@@ -3,10 +3,10 @@
   <pages>
     <page name="RBLibrarySource">'Track','Title','Genre','Artist','Album','Composer','Year','Time','Quality','Play Count','BPM','Comment','Location','Rating','Last Played','Date Added'</page>
     <RBLibrarySource column="Track" width="46" />
-    <RBLibrarySource column="Title" width="126" />
-    <RBLibrarySource column="Genre" width="135" />
-    <RBLibrarySource column="Artist" width="134" />
-    <RBLibrarySource column="Album" width="140" />
+    <RBLibrarySource column="Title" width="88" />
+    <RBLibrarySource column="Genre" width="97" />
+    <RBLibrarySource column="Artist" width="96" />
+    <RBLibrarySource column="Album" width="101" />
     <RBLibrarySource column="Composer" width="0" />
     <RBLibrarySource column="Year" width="0" />
     <RBLibrarySource column="Time" width="70" />
